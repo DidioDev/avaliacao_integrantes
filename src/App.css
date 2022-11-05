@@ -5,7 +5,7 @@ body{
 
 .titulo_integrantes{
   color: white;
-  padding-left: 10px;
+  text-align: center;
   padding-top: 1px;
   font-size: 30px;
 }
@@ -122,6 +122,6 @@ body{
 
 .descricao_atividade{
   color: white;
-  padding-left: 10px;
-  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
 }

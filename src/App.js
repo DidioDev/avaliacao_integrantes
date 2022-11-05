@@ -43,6 +43,9 @@ function App() {
 
       </div>
 
+      <h3 class="descricao_atividade">DESCRIÇÃO DA ATIVIDADE:</h3>
+      
+      
     </div>
   );
 }
