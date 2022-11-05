@@ -42,8 +42,13 @@ function App() {
           </div>
 
       </div>
+      <h3 class="descricao_atividade">DESCRIÇÃO DA ATIVIDADE: <br/> 
+      3. Criar uma página para controlar uma lista de compras.
+      * Consiste em um campo para adicionar itens na lista.
+      com a possibilidade de editar, excluir 
+     marcar que já pegou o item. 
+      </h3>
 
-      <h3 class="descricao_atividade">DESCRIÇÃO DA ATIVIDADE:</h3>
       
       
     </div>
