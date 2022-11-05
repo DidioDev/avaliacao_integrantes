@@ -40,8 +40,9 @@ function App() {
               <img src={Thales} class="foto_thales"></img>
               <h2 class="nome_thales">Thales Girotto</h2>
           </div>
-  
+
       </div>
+
     </div>
   );
 }

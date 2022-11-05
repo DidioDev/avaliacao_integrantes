@@ -6,14 +6,15 @@ body{
 .titulo_integrantes{
   color: white;
   padding-left: 10px;
-  padding-top: 15px;
+  padding-top: 1px;
+  font-size: 30px;
 }
 
 .fotos_integrantes{
   display: flex;
   flex-direction: row;
   text-align: center;
-  gap: 50px;
+  gap: 55px;
   align-items: center;
   justify-content: center;
   
@@ -34,8 +35,8 @@ body{
 }
 
 .foto_didio{
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -48,11 +49,12 @@ body{
 
 .nome_didio{
   color: white;
+  font-size: 21px;
 }
 
 .foto_henrique{
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -64,11 +66,12 @@ body{
 
 .nome_henrique{
   color: white;
+  font-size: 19.5px;
 }
 
 .foto_kaua{
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -80,11 +83,12 @@ body{
 
 .nome_kaua{
   color: white;
+  font-size: 21px;
 }
 
 .foto_thalia{
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -96,11 +100,12 @@ body{
 
 .nome_thalia{
   color: white;
+  font-size: 21px;
 }
 
 .foto_thales{
-  width: 180px;
-  height: 180px;
+  width: 165px;
+  height: 165px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -112,4 +117,11 @@ body{
 
 .nome_thales{
   color: white;
+  font-size: 21px;
+}
+
+.descricao_atividade{
+  color: white;
+  padding-left: 10px;
+  padding-top: 50px;
 }
