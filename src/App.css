@@ -117,16 +117,11 @@ body{
 
 .nome_thales{
   color: white;
-  font-size: 21px;
+  font-size: 23px;
 }
 
 .descricao_atividade{
   color: white;
   text-align: center;
-  font-size: 30px;
-}
-
-h5{
-  color: white;
-  text-align: center;
+  font-size: 25px;
 }
