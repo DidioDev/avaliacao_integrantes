@@ -1,6 +1,7 @@
 body{
-  background-color: rgb(37, 34, 34);
+  background: linear-gradient(0deg, rgba(1,64,95,1) 0%, rgba(205,29,57,1) 33%, rgba(251,97,36,1) 74%, rgb(255, 255, 255) 100%);
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .titulo_integrantes{
@@ -17,7 +18,6 @@ body{
   gap: 55px;
   align-items: center;
   justify-content: center;
-  
 }
 
 .cabeçalho{
@@ -34,94 +34,50 @@ body{
   transform: scale(1.3);
 }
 
-.foto_didio{
-  width: 165px;
-  height: 165px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.foto_didio:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-
-}
-
-.nome_didio{
-  color: white;
-  font-size: 21px;
-}
-
-.foto_henrique{
-  width: 165px;
-  height: 165px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.foto_henrique:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-}
-
-.nome_henrique{
-  color: white;
-  font-size: 19.5px;
-}
-
-.foto_kaua{
-  width: 165px;
-  height: 165px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.foto_kaua:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-}
-
-.nome_kaua{
-  color: white;
-  font-size: 21px;
-}
-
+.foto_didio,
+.foto_henrique,
+.foto_kaua,
+.foto_lucas,
+.foto_thales,
 .foto_thalia{
   width: 165px;
   height: 165px;
   transition: all 0.5s;
   cursor: pointer;
+  border-radius: 10px;
 }
 
-.foto_thalia:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-}
-
+.nome_didio,
+.nome_henrique,
+.nome_kaua,
+.nome_lucas,
+.nome_thales,
 .nome_thalia{
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 21px;
 }
 
-.foto_thales{
-  width: 165px;
-  height: 165px;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.foto_thales:hover{
-  -webkit-filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-  filter: drop-shadow(15px 10px 5px rgba(161, 78, 168, 0.5));
-}
-
-.nome_thales{
-  color: white;
-  font-size: 23px;
+.foto_henrique:hover,
+.foto_kaua:hover,
+.foto_lucas:hover,
+.foto_thales:hover,
+.foto_thalia:hover,
+.foto_didio:hover{
+  -webkit-transform: scale(1.2);
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .descricao_atividade{
+  color: rgba(255, 255, 255, 0);
+  text-align: center;
+  font-size: 25px;
+}
+
+.descricao_atividade:hover{
+  transition: 2s;
   color: white;
   text-align: center;
   font-size: 25px;
 }
+
